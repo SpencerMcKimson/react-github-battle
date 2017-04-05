@@ -13,7 +13,7 @@ var ConfirmBattleContainer = React.createClass({
     },
     componentDidMount: function () {
         var query = this.props.location.query;
-        //TODO fetch info from github and update state
+        //TODO fetch info from github API via axios and update state
     },
     render: function () {
         return (
